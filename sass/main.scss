@@ -23,7 +23,6 @@ body{
 
   header {
     @include span-columns(2);
-    @include media(1000px);
     position: relative;
     height: 100%;
   }
