@@ -1,0 +1,181 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.box-wrapper {
+  overflow: auto;
+  padding-top: 5px; }
+  .box-wrapper header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    position: relative;
+    height: 100%; }
+    .box-wrapper header:last-child {
+      margin-right: 0; }
+  .box-wrapper:nth-child(even) .textWrap {
+    background: #4fa6d6; }
+  .box-wrapper:nth-child(even) .timeCone {
+    display: block;
+    height: 0;
+    width: 0;
+    top: 8px;
+    left: 24px;
+    border: 8px solid transparent;
+    position: absolute;
+    border-right-color: #4fa6d6; }
+  .box-wrapper:nth-child(even) .timelog {
+    color: #4fa6d6; }
+  .box-wrapper:nth-child(odd) .textWrap {
+    background: #72c1ea; }
+  .box-wrapper:nth-child(odd) .timeCone {
+    display: block;
+    height: 0;
+    width: 0;
+    top: 8px;
+    left: 24px;
+    border: 8px solid transparent;
+    position: absolute;
+    border-right-color: #72c1ea; }
+  .box-wrapper:nth-child(odd) .hour {
+    color: #72c1ea; }
+
+.postBox {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  position: relative;
+  height: 100%;
+  padding: 0 0px 15px 40px;
+  border-left: 8px solid #b1dbf5;
+  margin: 0 0 0 0px;
+  float: left;
+  display: block; }
+  .postBox:last-child {
+    margin-right: 0; }
+
+.textWrap {
+  padding: 25px;
+  border-radius: 5px; }
+
+.titleWrap {
+  height: 100%; }
+  .titleWrap .postTitle {
+    font-size: 22px;
+    color: white;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    text-align: left; }
+
+p {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0; }
+
+.icons {
+  position: absolute;
+  right: -51px;
+  top: -6px;
+  z-index: 10; }
+
+.inner {
+  color: #4fa6d6; }
+
+.outer {
+  color: #b1dbf5;
+  font-size: 50px;
+  top: -3.5px; }
+
+.stamp {
+  float: right; }
+
+.logBox p {
+  color: #A2BAC9;
+  font-size: 10.5px;
+  margin: 0 5px;
+  text-align: right; }
+
+.timelog {
+  color: #4fa6d6;
+  font-size: 42px;
+  font-weight: 300;
+  margin: 0;
+  text-align: right; }
+
+/******************
+Media
+******************/
+.container header {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 95.7351%;
+  position: relative; }
+  .container header:last-child {
+    margin-right: 0; }
+
+.container .box-wrapper:nth-child(even) .timeCone {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #4fa6d6 transparent;
+  position: absolute;
+  left: 64px;
+  top: -10px; }
+
+.container .box-wrapper:nth-child(odd) .timeCone {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #72c1ea transparent;
+  position: absolute;
+  left: 64px;
+  top: -10px; }
+
+.container .postBox {
+  clear: both;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 93.60265%;
+  border-left: none; }
+  .container .postBox:last-child {
+    margin-right: 0; }
+
+.container .logBox {
+  float: left;
+  margin: 0 25px 10px 40px; }
+
+.container .logBox p {
+  float: left; }
+
+.container .timelog {
+  font-size: 28px; }
+
+.container .icons {
+  position: absolute;
+  top: 4px;
+  right: 17px; }
