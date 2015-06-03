@@ -151,9 +151,9 @@ p {
 /******************
 Media
 ******************/
-
+@media (max-width: 980px) {
 .container {
-  @include media (980px);
+  max-width: 980px;
 
   header {
     @include span-columns(11.5);
@@ -217,4 +217,5 @@ Media
     right: 17px;
   }
 
+}
 }
