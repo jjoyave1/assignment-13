@@ -1,3 +1,8 @@
 # PROJECT 13 - JOE JOYAVE
 
-##This project will serve as an introduction to use of handlebars, moment, and font awesome, recreating a given page.  Also, this page will be mobile-responsive, so there will be some practice in that area as well.
+This is a recreation of a blogsite's styling with responsive layout.  This page will be mobile-responsive for tablets and smartphones.
+
+Deployed: http://jjoyave1.github.io/assignment-13
+
+Tools implemented:
+Sass, Bourbon, Neat, Moment.js, Font-Awesome, jQuery, HTML, CSS

@@ -8,7 +8,7 @@ this["template"]["temp"] = Handlebars.template({"1":function(depth0,helpers,part
     + alias3(((helper = (helper = helpers.date || (depth0 != null ? depth0.date : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"date","hash":{},"data":data}) : helper)))
     + "</p>\n      <h2 class = \"timelog\">"
     + alias3(((helper = (helper = helpers.times || (depth0 != null ? depth0.times : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"times","hash":{},"data":data}) : helper)))
-    + "</h2>\n    </div>\n\n  </header>\n\n  <div class = \"postBox\">\n\n    <div class=\"textWrap\">\n    <div class = \"titleWrap\"><div class=\"timeCone\"></div>\n    <h2 class = \"postTitle\">"
+    + "</h2>\n    </div>\n\n\n  </header>\n\n  <div class = \"postBox\">\n\n    <div class=\"textWrap\">\n    <div class = \"titleWrap\"><div class=\"timeCone\"></div>\n    <h2 class = \"postTitle\">"
     + alias3(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"title","hash":{},"data":data}) : helper)))
     + "</h2></div>\n\n    <p>"
     + alias3(((helper = (helper = helpers.content || (depth0 != null ? depth0.content : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"content","hash":{},"data":data}) : helper)))
